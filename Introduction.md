@@ -33,17 +33,17 @@
 * Popularity & High Salary
 
 ### 2. python能干什么？
-#### [Python几乎无所不能](python_unbeatable.htm)
+#### [Python几乎无所不能](https://superxiaoqiang.github.io/blcu_py_nlp/python_unbeatable.htm)
 * 人工智能应用 智能科技 无处不在 
 * 1门语言搞定6大主流IT需求 
 * 开发风头正劲 雄霸行业指日可待！
 > 使用python的公司有哪些
 
-[用Python开发的大型网站](https://www.zhihu.com/question/19648160)
+[用Python开发的大型网站](https://www.zhihu.com/question/19648160) <br>
 [Python Success Stories](https://www.python.org/about/success/])
   
   YouTube网站架构
-http://blog.csdn.net/fenglibing/article/details/10457837
+http://blog.csdn.net/fenglibing/article/details/10457837  <br>
 http://highscalability.com/youtube-architecture
 
 ### 3. 为什么要学习NLP？
@@ -62,10 +62,10 @@ http://highscalability.com/youtube-architecture
 
 > 案例
 
-* [美团如何用NLP完成5大应用场景](https://mp.weixin.qq.com/s/7EA8tRmQ2WRSItIG-E-mwA)
+*  [美团如何用NLP完成5大应用场景](https://mp.weixin.qq.com/s/7EA8tRmQ2WRSItIG-E-mwA)
 *今天很多人关心人工智能的前沿论文，但是对于它如何在企业业务中发挥实际作用，反而并不关注。每一项技术，如果没有用好，那算不得好技术。那么王兴所执掌的美团，到底是如何用AI服务核心业务呢？NLP技术到底在美团有怎样的具体案例？*
 <br>
-* [自然语言处理怎么最快入门？](https://www.zhihu.com/question/19895141/answer/149475410)
+*  [自然语言处理怎么最快入门？](https://www.zhihu.com/question/19895141/answer/149475410)
 *针对这个问题，我们邀请了微软亚洲研究院首席研究员周明博士为大家解答。*
 
 
