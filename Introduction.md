@@ -17,6 +17,8 @@
 也就是说，Python 语言将纳入高考内容之一。
 ```
 #### Top 10 Reasons to Learn Python 
+[![为什么要学习Python](https://i2.hdslb.com/bfs/archive/562759d75743d3c7808f382547cf48173c05e076.jpg_320x200.jpg)](https://www.bilibili.com/video/av66534700/)
+
 * Simple & Easy To Learn
     *   语法简单: 没有变量类型的定义，没有指针
     *   易读、易写:  像英语一样 
@@ -31,15 +33,14 @@
 * Popularity & High Salary
 
 ### 2. python能干什么？
-#### Python几乎无所不能 Page
+#### [Python几乎无所不能](python_unbeatable.htm)
 * 人工智能应用 智能科技 无处不在 
 * 1门语言搞定6大主流IT需求 
 * 开发风头正劲 雄霸行业指日可待！
 > 使用python的公司有哪些
 
-https://www.zhihu.com/question/19648160
-http://simple-is-better.com/sites/
-https://www.python.org/about/success/
+[用Python开发的大型网站](https://www.zhihu.com/question/19648160)
+[Python Success Stories](https://www.python.org/about/success/])
   
   YouTube网站架构
 http://blog.csdn.net/fenglibing/article/details/10457837
@@ -56,45 +57,54 @@ http://highscalability.com/youtube-architecture
 
 
 * ####  向高薪阶层迈进
-    AI人才遭疯抢，但撑起千万年薪的有多少是泡沫  猎聘网自然语言处理职位招聘需求
-    划重点：目前学的人太多，泡沫太多，真正学进去的少。学这些是投入多，最后回报也丰厚。
+    <font color=orange>AI人才遭疯抢，但撑起千万年薪的有多少是泡沫  猎聘网自然语言处理职位招聘需求</font>
+    <font color=red>划重点：目前学的人太多，泡沫太多，真正学进去的少。学这些是投入多，最后回报也丰厚。</font>
 
 > 案例
 
-* 美团如何用NLP完成5大应用场景 File
+* [美团如何用NLP完成5大应用场景](https://mp.weixin.qq.com/s/7EA8tRmQ2WRSItIG-E-mwA)
 *今天很多人关心人工智能的前沿论文，但是对于它如何在企业业务中发挥实际作用，反而并不关注。每一项技术，如果没有用好，那算不得好技术。那么王兴所执掌的美团，到底是如何用AI服务核心业务呢？NLP技术到底在美团有怎样的具体案例？*
 <br>
-* 自然语言处理怎么最快入门？ Page
+* [自然语言处理怎么最快入门？](https://www.zhihu.com/question/19895141/answer/149475410)
 *针对这个问题，我们邀请了微软亚洲研究院首席研究员周明博士为大家解答。*
 
 
 ### 4. 学习目标
 #### Python编程进阶
- 
+```
+下周课程中将给出学习线路和主要知识点大纲
+```
 #### NLP编程入门引导 
+```
+介绍NLP的基础知识和常用NLP编程工具的使用案例，并分享文本分析的一些案例
+```
 
 * 课程结束后你应该基本学会的了：
-    * 机器翻译+译后编辑的形式完成本地化项目 （高志军的例子）
+    * 机器翻译+译后编辑的形式完成本地化项目
     * 会写一个简单的爬虫 
-    * 会写搭建一个简单的搜索引擎 （网页搜索、语料库搜索、网盘搜索、BT搜索) 
-    * 会做一个简单的输入法  
+    * 会写搭建一个简单的搜索引擎 （网页搜索、语料库搜索、网盘搜索) 
+    * 会用Python处理Excel表格数据、处理office文档
+    * 了解NLP的基本概念，处理简单的NLP问题
     <br/>
 * 如果足够花功夫，你应该也有能力做到：
     * 会做一个简单的语音识别、合成程序 
-    * 会做一个简单的宇宙翻译机* 
+    * 会爬取并分析股市行情
     * 会做一个人脸识别程序
     * 会做一个声纹识别程序
 
 ### 5. 学习要求
-* 课前完成预习，课上同步练习，课后巩固练习；
+* 课前完成预习，课上同步练习，课后巩固练习并提交代码库；
 * 阅读程序代码，分享阅读报告；
-* 每个小组参与2~3各实际项目，每个人都必须提交足量代码到代码库。
+* 每个小组参与2~3个实际项目，每个人都必须提交足量代码到代码库。
+* 每个人独立完成一个实际项目
 
 
 ### 6. python编程环境安装
 *  #### 基础环境
-
-
-
+    + 从Python官网安装开发环境，安装setuptools,pip等工具
+    + 回顾命令行（IDLE)下的交互式编程
+    + 学习pip工具的使用
 
 *  #### IDE环境
+    + VsCode的安装使用
+    + PyCharm的安装使用
