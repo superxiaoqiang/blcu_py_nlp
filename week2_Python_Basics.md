@@ -1,12 +1,12 @@
 ## Week2 -- Python 基础编程
 
-> #### 课前预习
+> ### 课前预习
 * 请学习在github上创建项目仓库，并从本地提交到README.md到新建github的仓库 [[参考](https://www.cnblogs.com/specter45/p/github.html)]
 * Markdown基础格式学习（不作要求） [[参考](https://www.cnblogs.com/xinmengwuheng/p/5794899.html)]
 * 请学习Jupyter notebook的使用 [[参考](https://www.cnblogs.com/nxld/p/6566380.html)]
 * 在Jupyter notebook中写几行简单的代码，比如赋值、循环、字符串操作等
 
-> #### 课堂任务
+> ### 课堂任务
 #### 如何学习编程
 * 编程学习的轮回
 ![编程的轮回](img/coding-circle-Diagram.svg)
@@ -30,7 +30,7 @@
 * python基础思维导图
 ![python基础思维导图](img/python_route.png)
 
-> #### 课堂学习与练习
+> ### 课堂学习与练习
 #### 基础&数据类型&控制流
 * 输入输入出
 * 基本数据类型
@@ -54,6 +54,6 @@
 2.统计一个文件个数超过20的文件夹中（比如C:\Windows\System32），
   不同类型（后缀）文件的个数，并打印出来(选做)。
 ```
-> #### 课后作业
+> ### 课后作业
     1.计算10000以内所有2,3,4,5的倍数的正整数的和并分别打印出来
     2.将可打印的ascii码全部放入一个数组中，并以每行20个的格式打印出来 
