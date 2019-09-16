@@ -8,6 +8,13 @@
     * [Head First Python](http://product.dangdang.com/22634348.html)
     * [python核心编程](http://product.dangdang.com/23961748.html)
     * [python自然语言处理](http://product.dangdang.com/23503127.html)
+    * [推荐电子书（可直接下载或在浏览器中阅读）](#ref-books)
+      + [Python Byte book](https://python.swaroopch.com/functions.html)
+      + [A Whirlwind Tour of Python](https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf)
+      + [How to Make Mistakes in Python](https://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+      + [Functional Programming in Python](https://www.oreilly.com/programming/free/files/functional-programming-python.pdf)
+      + [Think Python](http://greenteapress.com/thinkpython/thinkpython.pdf)
+
 * 自然语言处理学习
     * [NLTK cookbook](http://www.52nlp.cn/tag/nltk-cookbook)
     * [我爱自然语言处理博客](http://www.52nlp.cn/resources)
