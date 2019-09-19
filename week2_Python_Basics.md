@@ -31,12 +31,14 @@
 ![python基础思维导图](img/python_route.png)
 
 > ### 课堂学习与练习
-#### 基础&数据类型&控制流
+#### [基础&数据类型&控制流](#week2)
 * 输入输入出
 * 基本数据类型
 * 字符串、ord、chr
 * list, tuple, set
 * 控制流 -- 条件判断、循环
+* <b><u><i>推导式:</i></u></b> 列表、字典  [&para;](https://www.runoob.com/python3/python3-data-structure.html?_blank)
+* <b><u><i>遍历的技巧:</i></u></b> enumerate, items, zip
 ``` 
 练习一
 1.将所有大小写英文字母的字符以成对的形式放到一个数组中，
@@ -48,6 +50,7 @@
 
 * dict和嵌套结构
 * os库、json库
+* [综合示例1](examples/google_ngram_downloader.py?_blank) &nbsp;&nbsp;[综合示例2](examples/google_syntactic-ngram_downloader.py?_blank)
 ```
 练习二
 1.在当前工作文件夹下创建50个以test为前缀，不重名的文件夹。
@@ -57,3 +60,4 @@
 > ### 课后作业
     1.计算10000以内所有2,3,4,5的倍数的正整数的和并分别打印出来
     2.将可打印的ascii码全部放入一个数组中，并以每行20个的格式打印出来 
+[next](week3_Python_Basics_2.md)
