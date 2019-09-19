@@ -37,7 +37,7 @@
 * 字符串、ord、chr
 * list, tuple, set
 * 控制流 -- 条件判断、循环
-* <b><u><i>推导式:</i></u></b> 列表、字典  [&para;](https://www.runoob.com/python3/python3-data-structure.html?_blank)
+* <b><u><i>推导式:</i></u></b> 列表、字典  [&para;]( https://www.runoob.com/python3/python3-data-structure.html)
 * <b><u><i>遍历的技巧:</i></u></b> enumerate, items, zip
 ``` 
 练习一
@@ -50,7 +50,7 @@
 
 * dict和嵌套结构
 * os库、json库
-* [综合示例1](examples/google_ngram_downloader.py?_blank) &nbsp;&nbsp;[综合示例2](examples/google_syntactic-ngram_downloader.py?_blank)
+* [综合示例1]( examples/google_ngram_downloader.py) &nbsp;&nbsp;[综合示例2]( examples/google_syntactic-ngram_downloader.py)
 ```
 练习二
 1.在当前工作文件夹下创建50个以test为前缀，不重名的文件夹。
