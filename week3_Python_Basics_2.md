@@ -105,8 +105,10 @@ Previously On Week2 [虫洞](week2_Python_Basics.md#week2)
 >##### 语法
 Python 定义函数使用 def 关键字，一般格式如下：
 
->def 函数名(参数列表):
->&nbsp;&nbsp;&nbsp;&nbsp;函数体
+```
+def 函数名(参数列表):
+    函数体
+```
 
 默认情况下，参数值和参数名称是按函数声明中定义的顺序匹配起来的。
 >##### 举例
