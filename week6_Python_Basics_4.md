@@ -16,7 +16,7 @@
 
 #### IO与异常处理
 
-##### IO
+##### IO [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/02-python-essentials/02.21-file-IO.html)
 * 标准输入输出
   + input
   + print
@@ -25,9 +25,9 @@
   + 二进制文件
 
 
-##### json与pickle
-* json
-* pickle
+##### json与pickle  
+* json [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/11-useful-tools/11.03-json.html)
+* pickle [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/11-useful-tools/11.02-pickle-and-cPickle.html)
 
 ><b>练习一</b>
 > 1.读取[压缩包 books.zip](projects/books.zip)中解压缩后的文本文件，以文件名为键，文件中文本的长度为值，组成一个字典；
@@ -42,12 +42,12 @@
 
 
 ##### logging
-* 日志操作库[扩展]
+* 日志操作库 [[扩展]](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/11-useful-tools/11.07-logging.html)
 * 时间、日期的处理[扩展]
 
 
 
-##### 异常处理
+##### 异常处理 [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/02-python-essentials/02.19-exceptions.html)
 * try...except
 
 >### 课后作业
