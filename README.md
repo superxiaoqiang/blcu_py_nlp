@@ -46,3 +46,67 @@
 
 ### [课程介绍 -- 磨刀不误砍柴功](Introduction.md)
 > 为什么要学习Python程序设计，为什么要学习自然语言处理与人工智能技术，并引导各位准备好战斗的武器。
+
+### 课程大纲
+* [课程引言](week1_introduction.md)
+  + 为什么要学Python
+  + Python能干什么
+  + 为什么要学习NLP
+  + 学习目标
+  + 学习要求
+  + Python编程环境安装
+* [Python基础编程](week2_Python_Basics.md)
+  + 如何学习编程
+  + Python基础编程学习线路
+  + 输入输入出
+  + 基本数据类型
+  + 字符串、ord、chr
+  + list, tuple, set
+  + 控制流 -- 条件判断、循环
+  + 推导式: 列表、字典 
+  + dict和嵌套结构
+  + os库、json库
+  + 遍历的技巧: enumerate, items, zip
+* [Python基础编程（二）](week3_Python_Basics_2.md)
+  + 常用python内置函数
+  + 函数的定义
+  + 函数参数与返回值
+  + 函数的调用与参数传递
+  + 匿名函数Lambda
+* [Python 基础编程（三）](week4_Python_Basics_3.md)
+  + 模块与包
+  + 各种引用语句的使用
+  + 使用包和模块来构建项目
+  + 源码阅读任务
+  + 小组项目（一）
+* [Python 基础编程（四）](week6_Python_Basics_4.md)
+  IO与异常处理
+  + 标准输入输出
+  + 文件读写
+  + json与pickle
+  + 命令行调用传参
+  + logging日志
+  + 异常处理
+* [Python 高级编程（一）](week7_Python_Advanced1.md)
+  + Python高级编程主要分享内容
+    - 爬虫之网络编程（一）
+    - 爬虫之网络编程（二）与正则表达式
+    - 面向对象编程
+    - 迭代器、生成器、装饰器
+    - 数据库操作与NOSQL操作
+    - 多线程编程与定时任务
+    - 数值计算库之「NumPy」
+    - 数值计算库之「Pandas」
+    - 数据可视化之「Matplotlib」和「Bokeh」
+    - Python自然语言处理概论介绍（待扩展）
+
+  + 爬虫之网络编程（一）
+    - urllib库
+    - requests库
+    - PyQuery 与 浏览器调试、jQuery教程
+
+  + 代码阅读扩展
+    - Python 编码规范(Google) 
+    - 教你阅读Python开源项目代码 
+    - 学习和练手的好地方:70个Python项目
+  

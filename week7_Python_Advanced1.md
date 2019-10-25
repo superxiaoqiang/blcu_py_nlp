@@ -29,7 +29,7 @@
 * requests库 [&para;](https://www.cnblogs.com/saneri/p/9870901.html)
 * [PyQuery](https://blog.csdn.net/baidu_41871794/article/details/84195995) 与 浏览器调试、[jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html)
 
-##### 代码阅读扩展
-[Python 编码规范(Google)](https://www.runoob.com/w3cnote/google-python-styleguide.html)
-[教你阅读Python开源项目代码](https://blog.csdn.net/xiaoxianerqq/article/details/79296708)
-[学习和练手的好地方:70个Python项目](https://blog.csdn.net/seahillpass/article/details/76099957)
+#### 代码阅读扩展
+* [Python 编码规范(Google)](https://www.runoob.com/w3cnote/google-python-styleguide.html)
+* [教你阅读Python开源项目代码](https://blog.csdn.net/xiaoxianerqq/article/details/79296708)
+*  [学习和练手的好地方:70个Python项目](https://blog.csdn.net/seahillpass/article/details/76099957)
