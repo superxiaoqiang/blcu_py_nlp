@@ -8,16 +8,6 @@
  * <i>浏览器调试、[jQuery教程](https://www.runoob.com/jquery/jquery-tutorial.html)</i>
  * <i>urllib库简介 [&para;](https://www.jianshu.com/p/0e7fc1b6b5cc)</i>
 
-[如何设计一个分布式爬虫架构](
-https://blog.csdn.net/sc_lilei/article/details/80160346)
-网络爬虫的实现原理及技术  爬行策略  网络更新策略 
-https://blog.csdn.net/lhs322/article/details/80019467
-
-python爬虫基本原理及入门：请求目标网站并获得数据的程序 
-https://www.cnblogs.com/mzc1997/p/7799090.html
-Python爬虫原理  
-https://www.cnblogs.com/sss4/p/7809821.html
-
 #### 爬虫原理图
 >##### 简易爬虫架构
 ![简易爬虫架构](img/jiagou1.jpg)
@@ -72,18 +62,17 @@ javascript: var oHead = document.getElementsByTagName('HEAD').item(0); var oScri
 
 * requests库 [&para;](https://www.cnblogs.com/saneri/p/9870901.html)
   + 使用代理 [&para;](https://www.jianshu.com/p/c8f896d668d6)
+  + 修改请求头
 ```
 import requests
-
+设置代理
 proxies = {
   "http": "http://10.10.1.10:3128",
   "https": "http://10.10.1.10:1080",
 }
-
 requests.get("http://example.org", proxies=proxies)
-```
-  + 修改请求头
-```
+
+# 修改请求头
 url = 'https://www.baidu.com/s?wd=python'
 headers = {
         'Content-Type': 'text/html;charset=utf-8',
@@ -189,3 +178,9 @@ IP地址：((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01
 * [scrapy-redis快速上手/scrapy爬虫分布式改造](https://blog.csdn.net/qqxx6661/article/details/79449192)
 * [基于Nutch+Hadoop+Hbase+ElasticSearch的网络爬虫及搜索引擎](https://blog.csdn.net/feelig/article/details/39889747)
 * [爬取代理IP并验证可用性](https://blog.csdn.net/kong050kong/article/details/81153395) [&para;](https://blog.csdn.net/wy_97/article/details/79054599)
+* [如何设计一个分布式爬虫架构](
+https://blog.csdn.net/sc_lilei/article/details/80160346)
+* [网络爬虫的实现原理及技术  爬行策略  网络更新策略](https://blog.csdn.net/lhs322/article/details/80019467)
+* [python爬虫基本原理及入门：请求目标网站并获得数据的程序](
+https://www.cnblogs.com/mzc1997/p/7799090.html)
+* [Python爬虫原理](https://www.cnblogs.com/sss4/p/7809821.html)
