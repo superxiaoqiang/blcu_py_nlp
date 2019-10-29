@@ -63,6 +63,8 @@ javascript: var oHead = document.getElementsByTagName('HEAD').item(0); var oScri
 * requests库 [&para;](https://www.cnblogs.com/saneri/p/9870901.html)
   + 使用代理 [&para;](https://www.jianshu.com/p/c8f896d668d6)
   + 修改请求头
+
+
 ```
 import requests
 设置代理
@@ -80,14 +82,15 @@ headers = {
     }
 r = requests.get(url,headers=headers)
 ```
+
 * [PyQuery](https://blog.csdn.net/baidu_41871794/article/details/84195995)
 * 调用浏览器
 【注意】webdriver与chrome版本的对应
 
 #### 正则表达式（一）
-正则表达式规则表 [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/05-advanced-python/05.04-regular-expression.html#正则表达式规则)
+##### 正则表达式规则表 [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/05-advanced-python/05.04-regular-expression.html#正则表达式规则)
 
-正则表达式常用方法
+##### 正则表达式常用方法
 * re.match & re.search
 >在 re 模块中， re.match 和 re.search 是常用的两个方法：
     re.match(pattern, string[, flags])
@@ -103,6 +106,7 @@ r = requests.get(url,headers=headers)
 >re.compile(pattern) 生成一个 pattern 对象，这个对象有匹配，替换，分割字符串的方法。
 #### 爬虫学习扩展知识
 ##### 一些常用的正则匹配模式
+
 ```
 一、校验数字的表达式
 数字：^[0-9]*$
@@ -174,6 +178,7 @@ HTML标记的正则表达式：<(\S*?)[^>]*>.*?|<.*? /> ( 首尾空白字符的�
 中国邮政编码：[1-9]\d{5}(?!\d) (中国邮政编码为6位数字)
 IP地址：((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d))
 ```
+
 ##### 爬虫参考资料
 * [scrapy-redis快速上手/scrapy爬虫分布式改造](https://blog.csdn.net/qqxx6661/article/details/79449192)
 * [基于Nutch+Hadoop+Hbase+ElasticSearch的网络爬虫及搜索引擎](https://blog.csdn.net/feelig/article/details/39889747)
