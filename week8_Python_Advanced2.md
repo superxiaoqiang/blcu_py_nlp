@@ -18,7 +18,7 @@ https://www.cnblogs.com/mzc1997/p/7799090.html
 Python爬虫原理  
 https://www.cnblogs.com/sss4/p/7809821.html
 
-####爬虫原理图
+#### 爬虫原理图
 >##### 简易爬虫架构
 ![简易爬虫架构](img/jiagou1.jpg)
 >##### 爬虫架构演进一 -- 定时任务和管理器
@@ -97,6 +97,8 @@ r = requests.get(url,headers=headers)
 
 #### 正则表达式（一）
 正则表达式规则表 [&para;](https://superxiaoqiang.github.io/blcu_py_nlp/python_notes/05-advanced-python/05.04-regular-expression.html#正则表达式规则)
+
+正则表达式常用方法
 * re.match & re.search
 >在 re 模块中， re.match 和 re.search 是常用的两个方法：
     re.match(pattern, string[, flags])
@@ -111,7 +113,7 @@ r = requests.get(url,headers=headers)
 * re.compile
 >re.compile(pattern) 生成一个 pattern 对象，这个对象有匹配，替换，分割字符串的方法。
 #### 爬虫学习扩展知识
-一些常用的正则匹配模式
+##### 一些常用的正则匹配模式
 ```
 一、校验数字的表达式
 数字：^[0-9]*$
@@ -184,6 +186,6 @@ HTML标记的正则表达式：<(\S*?)[^>]*>.*?|<.*? /> ( 首尾空白字符的�
 IP地址：((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d))
 ```
 ##### 爬虫参考资料
-[scrapy-redis快速上手/scrapy爬虫分布式改造](https://blog.csdn.net/qqxx6661/article/details/79449192)
-[基于Nutch+Hadoop+Hbase+ElasticSearch的网络爬虫及搜索引擎](https://blog.csdn.net/feelig/article/details/39889747)
-[爬取代理IP并验证可用性](https://blog.csdn.net/kong050kong/article/details/81153395) [&para;](https://blog.csdn.net/wy_97/article/details/79054599)
+* [scrapy-redis快速上手/scrapy爬虫分布式改造](https://blog.csdn.net/qqxx6661/article/details/79449192)
+* [基于Nutch+Hadoop+Hbase+ElasticSearch的网络爬虫及搜索引擎](https://blog.csdn.net/feelig/article/details/39889747)
+* [爬取代理IP并验证可用性](https://blog.csdn.net/kong050kong/article/details/81153395) [&para;](https://blog.csdn.net/wy_97/article/details/79054599)
