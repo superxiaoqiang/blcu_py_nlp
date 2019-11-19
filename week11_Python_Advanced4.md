@@ -3,7 +3,7 @@
 > ### 课前预习
 * 安装好mysql服务端（[xampp](https://www.apachefriends.org/download.html)安装好后自带）；在其中创建一个数据库，并在其中创建一个数据表；
 * 下载[mongodb安装包](https://www.mongodb.com/download-center/community)(可以下载zip包，免安装)，启动mongod服务和客户端；测试使用命令行mongo客户端一些命令
-* 安装MySQLdb、pymongo、sqlalchemy
+* 安装pymysql、pymongo、sqlalchemy
 
 > ### 课堂任务
 <b><i>Previously On Week10 </i></b>
@@ -148,7 +148,6 @@ pip install pymysql pymongo sqlalchemy
 
 ```
 import pymysql
-conn = pymysql.connet('localhost','moodle30','moodle30','kekenet',charset='utf-8')
 conn = pymysql.connect('localhost','moodle30','moodle30','kekenet')
 cur = conn.cur()
 sql = 'set names utf8'
