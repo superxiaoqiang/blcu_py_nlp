@@ -23,9 +23,8 @@ javascript: var oHead = document.getElementsByTagName('HEAD').item(0); var oScri
 ```
 * [可可英语双语新闻](http://www.kekenet.com/read/news/)下载器与抽取器，工作同步进行
   + 进程与线程的知识
-  + 多进程
-  + 多线程
-  + 共享队列
+  + [多线程](https://www.runoob.com/python/python-multithreading.html)
+  + [多进程](https://www.jianshu.com/p/a69dec87e646)
 ```
 import requests
 import random
@@ -117,30 +116,65 @@ def main()
 ```
 
 ##### 练习1
-> 使用
+> 使用多进程的方法扩展上述程序，来对下载的文章进行文本抽取。
 
 #### 自然语言处理入门（一）
 
 ##### 什么是自然语言处理 （Natural Lanuage Processing)
-* 问题
-* 问题
-* 问题
-* 问题
+* 自然语言处理是计算机科学与语言学中关注于计算机与人类语言间转换的领域
+* 自然语言处理是计算机科学领域与人工智能领域中的一个重要方向
+* NLP要研制表示语言能力和语言应用的模型，建立计算框架来实现这样的语言模型，提出相应的方法来不断完善这样的模型，并根据语言模型设计各种实用系统，以及对这些系统的评测技术
 
 > <b>自然语言处理研究的基本问题</b>
-* 问题
-* 问题
-* 问题
+* 词法分析
+* 句法分析
+* 语义分析
+* 词向量
+* 文本分类
+* 机器翻译
+* 信息抽取
+* 篇章分析
+* 问答系统
 
 <b>分词与语言模型介绍</b>
+* 分词 [&para;](https://blog.csdn.net/sinat_26917383/article/details/77067515)
+* NGram语言模型([参考](projects/NGrams.pdf))
+在自然语言处理中的一个基本问题：给定一串字母，下一个最大可能性出现的字母是什么？
+如何计算一段文本序列在某种语言下出现的概率？
+<b>语言模型就是用于评估文本符合语言使用习惯程度的模型。</b>
+
+全拼输入法的例子：
+P(你现在干什么 | nixianzaiganshenme) > P(你西安在干什么|nixianzaiganshenme)
+
+<b>N-gram模型是一种基于统计语言模型（Language Model，LM），语言模型是一个基于概率的判别模型，它的输入、是一句话（单词的顺序序列），输出是这句话的概率，即这些单词的联合概率（jointprobability）。</b>
+N-gram本身也指一个由N个单词组成的集合，各单词具有先后顺序，且不要求单词之间互不相同。常用的有 Bi-gram (N=2) 和 Tri-gram (N=3)
 
 ```
+from nltk.util import ngrams
+a = "add domain with authentication for conference focus user".split(' ')
+unigrams = ngrams(a,1)
+for i in unigrams:
+    print(i)
+ 
+bigrams = ngrams(a,2)
+for i in bigrams:
+    print(i)
 
-
-
+trigrams = ngrams(a,3)
+for i in trigrams:
+    print(i)
 ```
 
-> <b>自然语言处理常用工具集</b>
+* <b>语言模型工具包</b>
+    + SRILM - The SRI Language Modeling Toolkit
+    + CMUCLMTK   CMU Language Modeling Toolkit 
+    + IRSTLM -  The IRST Language Modeling Toolkit
+    + KenLM Language Model Toolkit
+    + mitlm    MIT Language Modeling Toolit
+    + RNNLM Toolkit  (Neural network based lanuage modeling )
+
+
+> <b>自然语言处理常用工具集[&para;](https://github.com/superxiaoqiang/Awesome-Chinese-NLP)</b>
  * nltk
  * snownlp
  * stanfordcorenlp
@@ -151,30 +185,97 @@ def main()
 <b><i>使用示例</i></b>
 
 ```
+from nltk.tokenize import word_tokenize
+from nltk.tokenize import sent_tokenize
+import nltk
+# NLTK 分词
+word_tokenize("this's a test")
+# NLTK 分句
+text = "this's a sent tokenize test. this is sent two. is this sent three? sent 4 is cool! Now it's your turn."
+sent_tokenize_list = sent_tokenize(text)
+print(sent_tokenize_list)
+
+text = nltk.word_tokenize("Dive into NLTK: Part-of-speech tagging and POS Tagger")
+nltk.pos_tag(text)
+
+# 词干提取
+from nltk.stem.porter import PorterStemmer
+from nltk.stem.lancaster import LancasterStemmer
+from nltk.stem import WordNetLemmatizer
+
+porter_stemmer = PorterStemmer()
+lancaster_stemmer = LancasterStemmer()
+porter_stemmer.stem('maximum')
+lancaster_stemmer.stem('maximum')
 
 
+wordnet_lemmatizer = WordNetLemmatizer()
+wordnet_lemmatizer.lemmatize('dogs')
+wordnet_lemmatizer.lemmatize('aardwolves')
 
+wordnet_lemmatizer.lemmatize('is', pos='v')
+wordnet_lemmatizer.lemmatize('are', pos='v')
 ```
-
-
-
-##### 练习2
-> 将练习1抽取的文章数据
 
 ##### 词法分析、句法分析
-* 词法分析
-* 句法分析
+* <b>词法分析</b>
+将句子转换成词序列并标记句子中的词的词性等。不同语言词法分析任务有所不同。
+  + 英语
+    - 用空格隔开，不需要分词
+    - 用词的形态变化表示语法关系 
+    - 英文词法分析（曲折变化）
+      i. 词的识别、词形还原
+      ii. 未登录词处理
+      iii.词性标注
 
+  + 汉语
+    - 词与词紧密相边，没有明显分界标志
+    - 词形变化少，靠词序或虚词来表示语法关系
+    - 中文词法分析
+      i. 分词
+      ii.未登录词识别 
+      iii.词性标注
 
 ```
-
-
+from snownlp import SnowNLP
+text = "在尼比鲁星球探查期间，企业号舰长柯克为营救史波克采取了胆大妄为的举动，几乎危及全舰队员的生命，他也为此付出代价。"
+s = SnowNLP(text)
+print(s.words)
+print([t for t in s.tags])
+```
+* <b>句法分析</b>
+确定句子包含的全部句法信息，并确定句子中各成分之间的关系。
 
 ```
+from stanfordcorenlp import StanfordCoreNLP
+from nltk.tree import ParentedTree as PT
+from nltk.treeprettyprinter import TreePrettyPrinter
+
+corenlp = StanfordCoreNLP('http://localhost',port=2002)
+text="Once again, Coca-Cola, Nestlé, and PepsiCo are the world's worst plastic pollution contributors, according to a recent global audit."
+tstr = corenlp.parse(text)
+pt = PT.fromstring(tstr)
+tstr_pretty = TreePrettyPrinter(pt).text()
+print(tstr_pretty)
+```
+##### 练习2
+> 对于练习1抽取的文章数据，使用用nltk、stanfordcorenlp、spaCy分别进行练习使用其词法分析和句法分析相关功能。（可参考其官方文档）
 
 > ### 课后作业
-将从可可英语中爬取的各分栏下的文章存入mongodb中。
+分别统计[His_dark_meterials_full.zip](projects/His_dark_meterials_full.zip)和[The_three_body_problem_full.zip](projects/The_three_body_problem_full.zip) 中所有不同类型词汇的分布比例。比如对于前者，统计其中英文单词中名词、形容词、副词等等占所有词汇的百分比；对于后者，统计中文中各类词汇的占比。
 
 > ### 个人作业
 * 要求：
-* 说明：
+  + 自己独立完成，并在代码中标注详细的注释，另外需要撰写readme文件，说明思路和流程
+  + 模块化编程
+  + 使用面向对象编程
+  + 使用多线程编程
+
+* 说明：期末之前提交初稿代码，已经完成的函数模块可执行。
+* 题目（N选1）：
+  + 文本特征抽取 
+  + 文本人物、动物关系分析
+  + 文本分类分析（贝叶斯）
+  + 文本句型分析（中、英文）
+  + 
+  + 
