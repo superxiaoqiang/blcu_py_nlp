@@ -239,7 +239,7 @@ _as = [
     },
     {
         'title':'近一半的上班族因为压力太大而濒临崩溃',
-        'txt_eng':'Nearly half of all employees are close to "breaking point" at work due to increased stress levels. A survey of 2,000 professionals found the average working adult feels stressed for almost a third of their working day.',
+        'txt_eng':'Nearly half of all employees are close to breaking point at work due to increased stress levels. A survey of 2,000 professionals found the average working adult feels stressed for almost a third of their working day.',
         'txt_cn':'近一半的上班族因为压力增大而濒临崩溃。一项针对2000名职场人士的研究发现：工作日期间，每位上班族平均有三分之一的时间感到心力交瘁。'
     }
 ]
