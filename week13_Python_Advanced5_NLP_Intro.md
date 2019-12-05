@@ -262,7 +262,7 @@ print(tstr_pretty)
 > 对于练习1抽取的文章数据，使用用nltk、stanfordcorenlp、spaCy分别进行练习使用其词法分析和句法分析相关功能。（可参考其官方文档）
 
 > ### 课后作业
-分别统计[His_dark_meterials_full_en.zip](projects/His_dark_meterials_full.zip)和[The_three_body_problem_full.zip](projects/The_three_body_problem_full.zip) 中所有不同类型词汇的分布比例。比如对于前者，统计其中英文单词中名词、形容词、副词等等占所有词汇的百分比；对于后者，统计中文中各类词汇的占比。
+分别统计[His_dark_meterials_full_en.zip](projects/His_dark_meterials_full_en.zip)和[The_three_body_problem_full.zip](projects/The_three_body_problem_full.zip) 中所有不同类型词汇的分布比例。比如对于前者，统计其中英文单词中名词、形容词、副词等等占所有词汇的百分比；对于后者，统计中文中各类词汇的占比。
 
 > ### 个人作业
 * 要求：
